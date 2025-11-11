@@ -28,7 +28,7 @@ Recognizing fine-grained actions from temporally corrupted skeleton sequences re
 
 <!-- <table class="center">
     <tr>
-    <td><img src="assets/cvpr25_poster-sd-v3_00(1).png"></td>
+    <td><img src="assets/fig1.png"></td>
     </tr>
 </table> -->
  
