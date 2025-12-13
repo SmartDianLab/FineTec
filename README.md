@@ -1,7 +1,7 @@
 <!-- <p align="center">
     <img src="assets/a-logo-representing - omnicreator - -a-powerful-ai-t.png" width="150" style="margin-bottom: 0.2;"/>
 <p> -->
-<h2 align="center"> FineTec: Fine-Grained Action Recognition under Temporal Corruption via Skeleton Decomposition and Sequence Completion</h2>
+<h2 align="center"> FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion</h2>
 <!-- ![](./assets/logo_long.png#gh-light-mode-only){: width="50%"} -->
 <!-- ![](./assets/logo_long_dark.png#gh-dark-mode-only=100x20) -->
 <div align="center">
@@ -10,7 +10,7 @@
 
 
 
-_**[Dian Shao](https://scholar.google.com/citations?user=amxDSLoAAAAJ&hl=en)<sup>†</sup>, [Mingfei Shi](https://github.com/SmartDianLab/FinePhys), [Like Liu](https://github.com/Lozumi)**_
+_**[Dian Shao](https://scholar.google.com/citations?user=amxDSLoAAAAJ&hl=en)<sup>†</sup>, [Mingfei Shi](https://github.com/SmartDianLab/FinePhys), [Like Liu](https://likeliu.com)**_
 <br><br>
 <sup>†</sup>Corresponding Author
 <br>
