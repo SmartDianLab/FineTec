@@ -33,42 +33,58 @@ Recognizing fine-grained actions from temporally corrupted skeleton sequences re
 </table> -->
  
 ## 🔥 Update
-- __[2025.11.08]__: Initialized this github repository and README.
+- __[2025.12.31]__: Paper released on arXiv.
+- __[2025.12.30]__: Dataset Gym288-skeleton released on Hugging Face.
+- __[2025.11.08]__: Github repository initialized.
 
 
 ## 🧰 TODO
 
-- [ ] Release paper.
-- [ ] Release dataset.
+- [x] Release paper.
+- [x] Release dataset.
 - [ ] Release training code
 - [ ] Release inference code.
 - [ ] Release model weights.
 
 ## 📊 Dataset
 
-Coming Soon~
+The **Gym288-skeleton** dataset is a human skeleton-based action recognition benchmark derived from the **Gym288** subset of the [FineGym](https://sdolivia.github.io/FineGym/) dataset. It provides temporally precise, fine-grained annotations of gymnastic actions along with 2D human pose sequences extracted from original video frames.
+
+This dataset is designed to support research in:
+- Fine-grained action recognition
+- Temporally corrupted or incomplete action modeling
+- Skeleton-based representation learning
+- Physics-aware motion understanding
+
+Key Statistics:
+- Total instances: 38,223 action sequences
+- Action classes: 288 fine-grained gymnastic elements
+- Training samples: 28,739
+- Test samples: 9,484
+- Keypoint format: 17 COCO-style 2D joints per frame
+- Apparatuses: Floor Exercise (FX), Balance Beam (BB), Uneven Bars (UB), Vault (VT)
+- Pose estimator: [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)
+
+The dataset and detail information are available on [Hugging Face](https://huggingface.co/datasets/Lozumi/Gym288-skeleton).
 
 ## 🧰 Models
 
 Coming Soon~
 
 
-## 📖 Contents
-
-Coming Soon~
-
-<!-- 
 ## 📝 Citation
-Please consider citing our paper if our work is useful: -->
-<!-- ```bib
-@article{shao2026finetec,
-    title={FinePhys: Fine-grained Human Action Generation by Explicitly Incorporating Physical Laws for Effective Skeletal Guidance},
-    author={Shao, Dian and Shi, Mingfei and Liu, Like},
-    journal={TBD},
-    year={2026}
+Please consider citing our paper if our work is useful. Also cite [FineGym](https://sdolivia.github.io/FineGym/) if you use dataset Gym288-skeleton.
+```bib
+@misc{shao2025finetec,
+  title={FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion}, 
+  author={Dian Shao and Mingfei Shi and Like Liu},
+  year={2025},
+  eprint={2512.25067},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2512.25067}
 }
-``` -->
-
+```
 
 
 ## 📪 Contact
