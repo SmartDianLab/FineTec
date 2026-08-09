@@ -33,8 +33,9 @@ Recognizing fine-grained actions from temporally corrupted skeleton sequences re
 </table> -->
  
 ## 🔥 Update
+- __[2026.05.21]__: Dataset FineGym-skeketon V2 released, including Gym99-skeleton and Gym288-skeleton. In this version, we have re-labeled the first frame of all samples from the two subsets to improve the accuracy of skeleton extraction.
 - __[2025.12.31]__: Paper released on arXiv.
-- __[2025.12.30]__: Dataset Gym288-skeleton released on Hugging Face.
+- __[2025.12.30]__: Dataset FineGym-skeleton V1 released, including Gym288-skeleton.
 - __[2025.11.08]__: Github repository initialized.
 
 
@@ -48,7 +49,7 @@ Recognizing fine-grained actions from temporally corrupted skeleton sequences re
 
 ## 📊 Dataset
 
-The **Gym288-skeleton** dataset is a human skeleton-based action recognition benchmark derived from the **Gym288** subset of the [FineGym](https://sdolivia.github.io/FineGym/) dataset. It provides temporally precise, fine-grained annotations of gymnastic actions along with 2D human pose sequences extracted from original video frames.
+The **FineGym-skeleton** dataset is a human skeleton-based action recognition benchmark derived from the [FineGym](https://sdolivia.github.io/FineGym/) dataset. It provides temporally precise, fine-grained annotations of gymnastic actions along with 2D human pose sequences extracted from original video frames. It contains two subsets: Gym99-skeleton and Gym288-skeleton.
 
 This dataset is designed to support research in:
 - Fine-grained action recognition
