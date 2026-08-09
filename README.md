@@ -17,7 +17,7 @@ _**[Dian Shao](https://scholar.google.com/citations?user=amxDSLoAAAAJ&hl=en)<sup
 Northwestern Polytechnical University
 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
- <!--<a href='https://arxiv.org/abs/2505.13437'><img src='https://img.shields.io/badge/arXiv-2505.13437-b31b1b.svg'></a> &nbsp;-->
+ <a href='https://arxiv.org/abs/2512.25067'><img src='https://img.shields.io/badge/arXiv-2512.25067-b31b1b.svg'></a> &nbsp;
  <a href='https://smartdianlab.github.io/projects-FineTec/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp; 
 <br>
 <strong>The 40th Annual AAAI Conference on Artificial Intelligence (AAAI-26)</strong>
