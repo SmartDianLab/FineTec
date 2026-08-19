@@ -34,6 +34,7 @@ Recognizing fine-grained actions from temporally corrupted skeleton sequences re
  
 ## 🔥 Update
 - __[2026.05.21]__: Dataset FineGym-skeketon V2 released, including Gym99-skeleton and Gym288-skeleton. In this version, we have re-labeled the first frame of all samples from the two subsets to improve the accuracy of skeleton extraction.
+- __[2026.03.14]__: Paper released on AAAI.
 - __[2025.12.31]__: Paper released on arXiv.
 - __[2025.12.30]__: Dataset FineGym-skeleton V1 released, including Gym288-skeleton.
 - __[2025.11.08]__: Github repository initialized.
@@ -87,14 +88,17 @@ Coming Soon~
 ## 📝 Citation
 Please consider citing our paper if our work is useful. Also cite [FineGym](https://sdolivia.github.io/FineGym/) if you use dataset FineGym-skeleton.
 ```bib
-@misc{shao2025finetec,
-  title={FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion}, 
-  author={Dian Shao and Mingfei Shi and Like Liu},
-  year={2025},
-  eprint={2512.25067},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2512.25067}
+@article{shao2026finetec,
+  title={FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion},
+  volume={40},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/37838},
+  doi={10.1609/aaai.v40i11.37838},
+  number={11},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  author={Shao, Dian and Shi, Mingfei and Liu, Like},
+  year={2026},
+  month={Mar.},
+  pages={8842--8850}
 }
 ```
 
