@@ -85,7 +85,7 @@ Coming Soon~
 
 
 ## 📝 Citation
-Please consider citing our paper if our work is useful. Also cite [FineGym](https://sdolivia.github.io/FineGym/) if you use dataset Gym288-skeleton.
+Please consider citing our paper if our work is useful. Also cite [FineGym](https://sdolivia.github.io/FineGym/) if you use dataset FineGym-skeleton.
 ```bib
 @misc{shao2025finetec,
   title={FineTec: Fine-Grained Action Recognition Under Temporal Corruption via Skeleton Decomposition and Sequence Completion}, 
