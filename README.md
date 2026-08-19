@@ -50,7 +50,7 @@ Recognizing fine-grained actions from temporally corrupted skeleton sequences re
 
 ## 📊 Dataset
 
-The **FineGym-skeleton-V2** dataset is a human skeleton-based action recognition benchmark derived from [FineGym](https://sdolivia.github.io/FineGym/). It provides temporally precise, fine-grained gymnastics annotations together with 2D human pose sequences extracted from RGB subaction clips. The dataset contains two subsets: **Gym99-skeleton-V2** and **Gym288-skeleton-V2**.
+The **FineGym-skeleton** dataset is a human skeleton-based action recognition benchmark derived from [FineGym](https://sdolivia.github.io/FineGym/). It provides temporally precise, fine-grained gymnastics annotations together with 2D human pose sequences extracted from RGB subaction clips. The dataset contains two subsets: **Gym99-skeleton** and **Gym288-skeleton**.
 
 This dataset supports research on:
 
@@ -61,7 +61,7 @@ This dataset supports research on:
 
 ### Key Statistics
 
-| Item | Gym99-skeleton-V2 | Gym288-skeleton-V2 |
+| Item | Gym99-skeleton | Gym288-skeleton |
 |---|---:|---:|
 | Action classes | 99 | 288 |
 | Total instances | 34,803 | 38,935 |
