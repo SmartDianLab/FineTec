@@ -49,24 +49,35 @@ Recognizing fine-grained actions from temporally corrupted skeleton sequences re
 
 ## 📊 Dataset
 
-The **FineGym-skeleton** dataset is a human skeleton-based action recognition benchmark derived from the [FineGym](https://sdolivia.github.io/FineGym/) dataset. It provides temporally precise, fine-grained annotations of gymnastic actions along with 2D human pose sequences extracted from original video frames. It contains two subsets: Gym99-skeleton and Gym288-skeleton.
+The **FineGym-skeleton-V2** dataset is a human skeleton-based action recognition benchmark derived from [FineGym](https://sdolivia.github.io/FineGym/). It provides temporally precise, fine-grained gymnastics annotations together with 2D human pose sequences extracted from RGB subaction clips. The dataset contains two subsets: **Gym99-skeleton-V2** and **Gym288-skeleton-V2**.
 
-This dataset is designed to support research in:
+This dataset supports research on:
+
 - Fine-grained action recognition
 - Temporally corrupted or incomplete action modeling
 - Skeleton-based representation learning
 - Physics-aware motion understanding
 
-Key Statistics:
-- Total instances: 38,223 action sequences
-- Action classes: 288 fine-grained gymnastic elements
-- Training samples: 28,739
-- Test samples: 9,484
-- Keypoint format: 17 COCO-style 2D joints per frame
-- Apparatuses: Floor Exercise (FX), Balance Beam (BB), Uneven Bars (UB), Vault (VT)
-- Pose estimator: [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)
+### Key Statistics
 
-The dataset and detail information are available on [Hugging Face](https://huggingface.co/datasets/Lozumi/Gym288-skeleton).
+| Item | Gym99-skeleton-V2 | Gym288-skeleton-V2 |
+|---|---:|---:|
+| Action classes | 99 | 288 |
+| Total instances | 34,803 | 38,935 |
+| Training samples | 26,282 | 29,290 |
+| Validation samples | 8,521 | 9,645 |
+| Total annotated frames | 1,617,291 | 1,882,226 |
+| Frames per sample (min / mean / max) | 2 / 46.47 / 725 | 2 / 48.34 / 725 |
+
+Each sample contains one tracked gymnast represented by **17 COCO-style 2D keypoints per frame**. The action classes cover four apparatuses: Floor Exercise (FX), Balance Beam (BB), Uneven Bars (UB), and Vault — Women (VT).
+
+### Annotation Pipeline
+
+For each RGB subaction clip, a bounding box was manually annotated on the first frame to identify the target gymnast. [OSTrack](https://github.com/botaoye/OSTrack) was then used to track the target throughout the clip, followed by [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) for frame-by-frame skeleton keypoint extraction.
+
+The release also includes **39,092 FineGym RGB subaction clips**, organized into four parts with a total size of approximately **8.39 GB**.
+
+The skeleton annotations, RGB subaction clips, detailed statistics, and data format documentation are available on [Hugging Face](https://huggingface.co/datasets/Lozumi/FineGym-skeleton).
 
 ## 🧰 Models
 
